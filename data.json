@@ -1,0 +1,73 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon.", "Have a better year ahead"],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure have a nice day"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can guide you through the courses, departments, Admission process of the college, culturals, about leave, rating, placements etc"],
+         "context": [""]
+        },
+        {"tag": "college_code",
+         "patterns": ["what is the college code?", "college code of the institution", "Give me the college code", "collegecode"],
+         "responses": ["College code: 3115"],
+         "context": [""]
+        },
+        {"tag": "About_college",
+         "patterns": ["Tell about college", "say something about college", "I want to knwo something about college", "say anything about college" ],
+         "responses": ["College code: 3115, Name: Meeankshi Sundararajan Engineering College, Location: Kodambakkam chennai, Rating: 4.5, AcCridited to NBA,NAAC WITH A+ "],
+         "context": [""]
+        },
+        {"tag": "Courses",
+         "patterns": ["I want to know the courses offered", "different courses offered", "pls tell me the courses"],
+         "responses": ["The courses offered are B.E, B.Tech, M.E, M.Tech which one you want to opt for..."],
+         "context": [""]
+        },
+        {"tag": "departments",
+         "patterns": ["I want to know the different brancehs of courses offered", "Different departments?", "branches"],
+         "responses": ["Basically there are 6 departments namely: Information Technology(IT), Artificial Intellignece and Data Science, ECE, EEE, CIVIL, MECHANICAL, CSE"],
+         "context": [""]
+        },
+        {"tag": "fees_g",
+         "patterns": ["fees for govenrmnet quota", "fees for govt quota", "fees through counselling"],
+         "responses": ["Fees: 50,000 INR"],
+         "context": [""]
+        },
+        {"tag": "fees_m",
+         "patterns": ["fees for management quota", "fees for management quota","fees thorugh management"],
+         "responses": ["Fees: dependes on the management"],
+         "context": [""]
+        },
+        {"tag": "placement",
+         "patterns": ["tell me about placement", "placement percentage", "I want to know about placement","placement...." ],
+         "responses": ["According to the survery the placement is actually good in this college, The past placement percentage recorded : 92%, its a pretty good percentage right"],
+         "context": ["search_hospital_by_params"]
+        },
+        {"tag": "infrastructure",
+         "patterns": ["Please tell me about infrastructure of the college", "infrastructure", "pls tell me how classrooms look like"],
+         "responses": ["The infrastructure is pretty good here..., and we are providing in classroom with projector smart classes, computer lab filled with pc and fully airconditioned, a playground to play, garden with free wifi to sit and work in the evenings etc..."],
+         "context": ["search_hospital_by_type"]
+        },
+        {"tag": "rate",
+         "patterns": ["how would you rate the college..."],
+         "responses": ["out of 5 i would be giveing 4.5 and the best college in the heart of the city"],
+         "context": [""]
+        }
+   ]
+}
